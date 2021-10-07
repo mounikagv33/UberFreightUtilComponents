@@ -4,7 +4,8 @@ We can use this component with any sobject which supports relationship. This com
 Below is an example of how to use this child component inside of any parent LWC :- 
 field-name --> Relationship Field API Name
 object-name --> Object API Name
-search-field --> Field to search on parent object
+search-field --> Specify the field to search the user input on this field(only 1 field is allowed here)
+additional-search-fields --> Specify the fields for lookup search in addition to search-field value(multiple fields allowed)
 iconname --> object specific icon in lookup list and selected record.
 fields-to-select --> Specify the fields that are needed based on the record selection
 selected-record -- > If we need to pre populate selected record on load, then we need to assign record id which we should show on lookup.
