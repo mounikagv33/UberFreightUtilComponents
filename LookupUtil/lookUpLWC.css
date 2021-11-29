@@ -1,7 +1,0 @@
-.widthAdjuster{
-    width: 60% !important;
-}
-.fontText{
-    font-weight:bold;
-    color: var(--lwc-colorTextLabel,rgb(107, 109, 112))
-  }
