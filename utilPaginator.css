@@ -1,0 +1,27 @@
+.customSelect select {
+  padding-right: 1.25rem;
+  min-height: inherit;
+  line-height: normal;
+  height: 1.4rem;
+}
+.customSelect label {
+  margin-top: .1rem;
+}
+.customSelect .slds-select_container::before {
+  border-bottom: 0;
+}
+.customInput {
+  width: 2.5rem;
+  height: 1.4rem;
+  border: 1px solid #dddbda;
+  border-radius: 3px;
+  background-color:#fff;
+}
+.slds-grid_align-spread{
+width: 5px;
+}
+@media only screen and(min-width: 900px) {
+  .smallButton {
+      width: 20px;
+  }
+}
